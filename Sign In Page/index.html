@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Log ininIn</title>
+  </head>
+  <body>
+    <div class="split-screen">
+      <div class="left">
+        <section class="copy">
+          <h1>Explore your creativity</h1>
+          <p>Over 1000 courses taught by real creatives.</p>
+        </section>
+      </div>
+
+      <div class="right">
+        <form action="#">
+          <section class="copy">
+            <h2>Log In</h2>
+            <div class="login-container">
+              <p>Enter your credentials to access your account.</p>
+              <div class="container">
+                <a href="#" id="google-signin">
+                  <div class="g-sign-in-button">
+                    <div class="content-wrapper">
+                      <div class="logo-wrapper">
+                        <img
+                          src="https://developers.google.com/identity/images/g-logo.png"
+                          alt="Google Logo"
+                        />
+                      </div>
+                      <span class="text-container">
+                        <span>Sign in with Google.</span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <p>or</p>
+            </div>
+          </section>
+          <div class="input-container email">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="eg. contact@xopixel.com"
+            />
+          </div>
+          <div class="input-container password">
+            <div class="label-password">
+              <label for="password" id="display-password">Password</label>
+              <a href="#" id="forgot-password">Forgot Password?</a>
+            </div>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+            <i class="far fa-eye-slash"></i>
+          </div>
+          <div class="input-container cta">
+            <label class="checkbox-container">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+              Remember Information
+            </label>
+            <button class="login-btn" type="submit">Log In</button>
+            <section class="copy legal">
+              <p>
+                <span class="small"
+                  >Not a member? <a href="#">Sign Up</a>.</span
+                >
+              </p>
+              <!-- <p style="color:red;">Invalid Email or Password</p> -->
+            </section>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
